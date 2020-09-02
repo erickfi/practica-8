@@ -42,7 +42,17 @@ Un amplificador operacional (abreviadamente, op amp, del inglés operational amp
 
 > El amplificador operacional es una unidad electrónica que se comporta como una fuente de tensión controlada por tensión, es un elemento de circuitos activo diseñado para realizar operaciones matemáticas de suma, resta, multiplicación, división, diferenciación e integración.
 
+En otras palabras y dentro de los contextos estudiados, un operador operacional es un circuito integrado, que consta de un complejo sistema de resistores, transistores, capacitores y diodos. Existen diversos tipos de amplificadores, uno habitual es el empaque en línea doble (dual in-line package, DIP por sus siglas en inglés) de ocho terminales. A continuación se presenta el circuito integrado así como su símbolo dentro de un diagrama.
 
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/amplificador%20operacional.PNG)
+
+- La terminal 8 no se usa.
+- Las terminales 1 y 5 por lo general no se conectan a componentes externos y suelen conectarse entre ellas como señal de salida.
+- La entrada inversora, terminal 2.
+- La entrada no inversora, terminal 3.
+- La salida, terminal 6.
+- El suministro de potencia positivo V, terminal 7.
+- El suministro de potencia negativo V, terminal 4.
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
 
