@@ -40,7 +40,8 @@ entrada y varía con los cambios de temperatura, envejecimiento y, en menor medi
 ### 3. MARCO TEÓRICO
 Un amplificador operacional (abreviadamente, op amp, del inglés operational amplifier) es un amplificador electrónico de voltaje con muy alta ganancia, entradas diferenciales y, generalmente, una única salida. Según Sadiku (2006)
 
-> El amplificador operacional es una unidad electrónica que se comporta como una fuente de tensión controlada por tensión.
+> El amplificador operacional es una unidad electrónica que se comporta como una fuente de tensión controlada por tensión, es un elemento de circuitos activo diseñado para realizar operaciones matemáticas de suma, resta, multiplicación, división, diferenciación e integración.
+
 
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
