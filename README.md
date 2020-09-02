@@ -192,5 +192,5 @@ Observando las gráficas, que nos dan el voltaje de salida, y comparando con los
 ### 12. ANEXOS
 
 - [Cálculos](https://github.com/erickfi/practica-8/blob/master/Anexos/Anexos.pdf)
-- [Cómo se implementó el circuito](https://youtu.be/n54IluLJb14)
+- [Cómo se implementó el circuito](https://youtu.be/wuU_yvoSkqg)
 - [Cómo funciona el circuito](https://youtu.be/n54IluLJb14)
