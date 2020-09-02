@@ -87,42 +87,21 @@ En una idea simplificada se puede decir que el amplificador operacional es un ci
 
 ### 6. PREGUNTAS
 
-***¿Cuántas divisiones por cuadro abarca la amplitud pico de la señal de salida?***
+***Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.***
 
-	6
+       Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico es la impedacia de entrada y salida, es decir las resistencias que se encuentran conectadas a la entrada y salida del amplificador. Como también la ganancia en lazo abierto la cual indica una ganancia de tensión en ausencia de realimentación   
 
-***¿En qué valor está posicionada la perilla VOLTS/DIV?***
+***Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.***
 
 	1.15 V
 
-***¿Cuántas divisiones por cuadro abarca un ciclo completo de la señal de salida?***
+***Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.***
 
 	8
 
-***¿En qué valor está posicionada la perilla TIME/DIV?***
 
-	50 us
 
-***¿Cuál es la amplitud de voltaje y el periodo de la señal que aparece en la pantalla del osciloscopio?***
 
-	Amplitud de voltaje: 6.9 (V) 
-	Período:  0.0004 (s) 
-
-**Determine la frecuencia natural (Hz) y la frecuencia angular (rad/s) de la señal de salida.***
-
-	f: 2.5 k   (Hz) 
-	ω: 5000 π  (rad/s) 
-	
-***Con el multímetro digital mida el voltaje de salida en RL:***
-	
-	4.86 V
-
-***Compare el voltaje medido en el punto 7.5.5. y el obtenido en el punto ¿Coinciden? ¿Por qué?***
-
-	El valor obtenido en el osciloscopio es 6.9 V y el medido por el multímetro es 4.86 V, no coinciden por el hecho que el osciloscopio
-	nos entrega el valor pico del voltaje y el multímetro el valor rms, entonces si dividimos el voltaje pico de 6.9 V para la raíz de 
-	dos obtenemos un valor de 4.879 V, siendo este un valor próximo a 4.86 V, verificando así que el valor medido con el multímetro 
-	efectivamente es el valor eficaz o rms del voltaje que pasa por la resistencia de 2.2k ohmios.
 
 
 ### 7. CONCLUSIONES
