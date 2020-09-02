@@ -161,25 +161,33 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 > Las aplicaciones de los OP son muy extensas y diversas, entre las numerosas aplicaciones prácticas tenemos: 
 
 > Amplificadores para instrumentos, convertidores digitales-analógicos, computadoras analógicas, cambiadores de nivel, filtros, circuitos de calibración, inversores, sumadores, integradores, diferenciadores, restadores, amplificadores logarítmicos, comparadores, elementos rotatorios, osciladores, rectificadores, reguladores, convertidores de tensión a corriente, convertidores de corriente a tensión y recortadores.
+### 7. ANÁLISIS DE RESULTADOS
 
-### 7. CONCLUSIONES
+Al observar las gráficas de los circuitos podemos observar la gráfica del circuito 1 y el circuito 3 son similares esta similitud se debe a los componentes que tienen, ya que ambas se componen únicamente de resistores, y su diferencia radica en las fuentes y la forma en la que se conectan estas, reforzando el pensamiento de que un amplificador nos da resultados distintos dependiendo de como se conecten e interactúen sus elementos.
+
+Al comparar las gráficas 1, 3 y 2, notamos una gran diferencia, y no precisamente en la forma de la gráfica, sino en la representación de la misma, para las graficas 1 y 3, se nota que existe una simetría, desde que va de un valor 0 V al voltaje máximo, mientras que la grafica 2 nos da una gráfica que no es simétrica, por lo que tenemos voltajes variados, esto es debido a que este circuito tiene conectado un capacitor en el retorno en el lugar de una resistencia lo que hace que se genere una onda de esa forma.
+
+Observando las gráficas, que nos dan el voltaje de salida, y comparando con los voltajes de entrada, tenemos que este se amplifica en razón de 4.3 veces el valor de entrada, cumpliendo así con la función del amplificador operacional que es aumentar el voltaje.
+
+### 8. CONCLUSIONES
 
 > En el primer circuito se observó una amplificación o incremento en el voltaje proporcionado por la fuente de voltaje AC de 1V, este incremento esta dado en un factor de 4.3 veces el voltaje de entrada, y esto es debido precisamente a la configuración del circuito, el amplificador operacional LM324J es alimentado por las terminales 4 y 11 con un voltaje de 14 V y dado que las resistencias de entrada y salida son 1k y 4.3 k ohmio respectivamente, se logra amplificar el voltaje de entrada de nuestro circuito.
 
 > En el tercer circuito al igual que el primero, se obtiene un incremento sobre el voltaje de entrada, en este caso la configuración del circuito al tener dos fuentes de voltaje de corriente alterna en paralelo, el factor de incremento en el voltaje de salida esta relacionado directamente con dichas fuentes y sus respectivas resistencias conectadas en serie, y como también la resistencia de salida. Obteniendo un voltaje de salida de 8,33 V.
 
-### 8. RECOMENDACIONES
+### 9. RECOMENDACIONES
 
+- Usar el amplificador específicado, ya que existen diferentes tipos y cada uno da un resultado diferente aún si se realiza una misma conexión.
+- Conectar la fuentes según lo indica el diagrama, si se conectan del polo opuesto los resultados vana  variar.
+- Variar las fuentes ayudará en la comprensión de como funciona el amplificador operacional.
 
-
-
-### 9. CRONOGRAMA
+### 10. CRONOGRAMA
 
 ![](https://github.com/erickfi/practica-8/blob/master/Imgs/Cronograma-8.PNG)
 
-### 10. REFERENCIAS
+### 11. REFERENCIAS
 - [1] M. A. Sadiku.Fundamentos de circuitos eléctricos. Mc Graw Hill, third edition, 2006
-### 11. ANEXOS
+### 12. ANEXOS
 
 - [Cálculos](https://github.com/erickfi/practica-8/blob/master/Anexos/Anexos.pdf)
 - [Cómo se implementó el circuito](https://youtu.be/n54IluLJb14)
