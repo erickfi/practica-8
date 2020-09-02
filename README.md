@@ -79,6 +79,17 @@ Al analizar el circuito, podemos obtener el voltaje de salida mediante la siguie
 
 Un amplificador operacional o opamp en ganancia controlada, considera una retroalimentación de la salida respecto a la entrada. Las dos configuraciones más básicas son la del inversor y no inversor. Otras configuraciones se detallaran en otros tutoriales más adelante.
 
+##### Retroalimentación
+
+El concepto de retroalimentación es crucial para la comprensión de los circuitos de amplificadores operacionales. 
+
+Una retroalimentación negativa se obtiene cuando la salida se retroalimenta a la terminal inversora del amplificador operacional, cuando hay una vía de retroalimentación de la salida a la entrada, la proporción entre la tensión de salida y la tensión de entrada se llama ganancia de lazo cerrado. Como resultado de la retroalimentación negativa, es posible demostrar que la ganancia de lazo cerrado es casi insensible a la ganancia de lazo abierto A del amplificador operacional. Por esta razón se usan amplificadores operacionales en circuitos con trayectorias de retroalimentación.
+
+Una limitación práctica del amplificador operacional es que la magnitud de su tensión de salida no puede exceder de |VCC|. En otras palabras, la tensión de salida depende de y está limitada por la tensión de alimentación. La figura ilustra que el amplificador operacional puede funcionar en tres modos, dependiendo de la tensión de entrada diferencial vd.
+
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/tension%20de%20salida.PNG)
+
+Si se intenta incrementar vd más allá del rango lineal, el amplificador operacional se satura y produce vo=VCC ó vo=-VCC.
 
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
