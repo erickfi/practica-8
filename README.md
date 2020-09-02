@@ -114,7 +114,7 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 
 Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico son:
 
-- La impedancia de Entrada y Salida
+- La Impedancia de Entrada y Salida
 
 Son las resistencias que se encuentran conectadas a la entrada y salida del amplificador. 
 
@@ -140,7 +140,7 @@ Es el rango de temperatura donde el dispositivo funciona bajo las especificacion
 
 ***Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.***
 
-Los operadores utilizados en esta práctica fueron el LM3424J y el 741, sin embargo existen muchos otros amplificadores muy utilizados actualmente en la industria debido a las características que poseen, como por ejemplo:
+Los operadores utilizados en esta práctica fueron el LM3424J y el 741, sin embargo, existen muchos otros amplificadores muy utilizados actualmente en la industria debido a las características que poseen, como por ejemplo:
 
 -Los (opamps), se encargan de amplificar la tensión, suelen ser los bloques de construcción de sistemas electrónicos en un amplio rango de dispositivos y equipos. También existen los nuevos (opamps) capaces de trabajar a 200mV por debajo de cero en modo común, incrementando la libertad de diseño al poder resistir hasta 6 V con la máxima ratio y ampliando el margen de un fuente típica de 5 V.
 
