@@ -178,6 +178,6 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 - [1] M. A. Sadiku.Fundamentos de circuitos eléctricos. Mc Graw Hill, third edition, 2006
 ### 11. ANEXOS
 
-- [Cálculos](https://github.com/erickfi/Laboratorio-7/blob/master/Anexos/LAB_7_CIRCUITOS.pdf)
+- [Cálculos](https://github.com/erickfi/practica-8/blob/master/Anexos/Anexos.pdf)
 - [Cómo se implementó el circuito](https://youtu.be/n54IluLJb14)
 - [Cómo funciona el circuito](https://youtu.be/n54IluLJb14)
