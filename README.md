@@ -51,8 +51,21 @@ En otras palabras y dentro de los contextos estudiados, un operador operacional 
 - La entrada inversora, terminal 2.
 - La entrada no inversora, terminal 3.
 - La salida, terminal 6.
-- El suministro de potencia positivo V, terminal 7.
-- El suministro de potencia negativo V, terminal 4.
+- El suministro de potencia positivo V+, terminal 7.
+- El suministro de potencia negativo V-, terminal 4.
+
+Las entradas se han marcado con los signos menos (-) y más (+) para especificar las entradas inversora y no inversora, respectivamente. 
+Una entrada aplicada a la terminal no inversora aparecerá con la misma polaridad en la salida, mientras que una entrada aplicada a la terminal inversora aparecerá invertida en la salida. 
+
+Como elemento activo, es necesario un suministro de tensión al amplificador operacional, como se muestra del modo común en la figura:
+
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/alimentacion%20del%20amplificador.PNG)
+
+En una idea simplificada se puede decir que el amplificador operacional es un circuito integrado cuya principal función es amplificar el voltaje con una entrada de tipo diferencial para tener una salida amplificada y con referencia a tierra. Existen dos configuraciones que puede adoptar un amplificador, lazo abierto y lazo cerrado.
+
+##### 
+
+
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
 
