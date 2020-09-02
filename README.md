@@ -63,17 +63,31 @@ Como elemento activo, es necesario un suministro de tensión al amplificador ope
 
 En una idea simplificada se puede decir que el amplificador operacional es un circuito integrado cuya principal función es amplificar el voltaje con una entrada de tipo diferencial para tener una salida amplificada y con referencia a tierra. Existen dos configuraciones que puede adoptar un amplificador, lazo abierto y lazo cerrado.
 
-##### 
+##### CONFIGURACIÓN DEL AMPLIFICADOR OPERACIONAL EN LAZO ABIERTO
+
+En esta configuración partimos de que la ganancia esta ajustada a un valor muy alto (aproximadamente 200,000 veces). Esta ganancia el lazo abierto se le conoce como AOL y esta en función a la diferencia de las entradas del Op-Amp. La ganancia en lazo abierto es la salida máxima que se puede obtener del amplificador operacional.
+
+El voltaje de saturación en un amplificador operacional es un «poco» menor que el voltaje de la fuente. Esta caída de voltaje depende del fabricante.
+
+Una de las aplicaciones mas recurrentes de esta configuración es como comparador, en este caso se deja una de las entradas con un voltaje fijo. Usualmente, el voltaje configurado con un divisor de voltaje para tener una referencia. Y la otra entrada conectada a la salida de un sensor. En este caso podemos tener un sistema que tenga una salida activada pasando este umbral. Esta configuración es muy útil ya que no depende de un sistema inteligente como un microcontrolador.
+
+Al analizar el circuito, podemos obtener el voltaje de salida mediante la siguiente fórmula.
+
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/voltaje%20de%20salida%20en%20lazo%20abierto.PNG)
+
+##### CONFIGURACIÓN DEL AMPLIFICADOR OPERACIONAL EN LAZO CERRADO (GANANCIA CONTROLADA)
+
+Un amplificador operacional o opamp en ganancia controlada, considera una retroalimentación de la salida respecto a la entrada. Las dos configuraciones más básicas son la del inversor y no inversor. Otras configuraciones se detallaran en otros tutoriales más adelante.
 
 
 ### 4. DIAGRAMAS
 **Diagrama del circuito**
 
-![](https://github.com/erickfi/Laboratorio-7/blob/master/Imagenes/diagrama.PNG)
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/diagramas%20de%20circuitos.PNG)
 
 **Construcción del diagrama en Proteus**
 
-![](https://github.com/erickfi/Laboratorio-7/blob/master/Imagenes/osciloscopio%20proteus.PNG)
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/diagramas%20proteus.PNG)
 
 **Simulación**
 
