@@ -112,7 +112,10 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 
 ***Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.***
 
-       Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico es la impedacia de entrada y salida, es decir las resistencias que se encuentran conectadas a la entrada y salida del amplificador. Como también la ganancia en lazo abierto la cual indica una ganancia de tensión en ausencia de realimentación   
+       Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico son:
+       - La impedancia de Entrada y Salida
+       Son las resistencias que se encuentran conectadas a la entrada y salida del amplificador. 
+
 
 ***Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.***
 
