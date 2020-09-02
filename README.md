@@ -5,9 +5,27 @@
 **Autores:** Figueroa Erick, León Jipshon,Viracucha William.
 ### 1. PLANTEAMIENTO DEL PROBLEMA
 
-En estudio de la corriente eléctrica se divide en dos grupos, por un lado está la corriente directa DC, y por el otro la corriente alterna AC, aunque los teoremas y principios eléctricos se aplican a ambos tipos, su estudio difiere por las características que los componen, es por ello que su aplicación es muy diversa, por lo general, la corriente continua se usa para elementos del diario vivir, celulares, portatiles, y se la suele atribuir con una batería, mientras que la corriente alterna la encontramos en los cables de alta tensión, y en los medidores eléctricos de nuestras casas.
+Cuando se considera al amplificador operacional como un elemento ideal, sus características son:
+- Impedancia de entrada infinita.
+- Impedancia de salida nula.
+- Ganancia de tensión infinita
+- Ancho de banda infinito.
+- Salida nula.
+- cuando ambas entradas son iguales, corriente nula de polarización a fin de generar una respuesta funcional en sus entradas.
+- voltaje nulo de desviación u offset (lo que implica una perfecta adaptación entre las etapas de entrada), y ausencia de desviación en sus características con los cambios de temperatura y valores de voltaje aplicados.
 
-Una de las principales diferencias entre la corriente alterna y la corriente continua es la intensidad en las que se presentan, siendo la intensidad de corriente su principal diferencia donde la corriente alterna es mucho mayor que la corriente continua, es por ello que dentro de la ingenieria existen dos ramas distintas para el estudio y trabajo con las mismas, la energia electrónica para la corriente continua y la ingenieria eléctrica para la corriente alterna
+Sin embargo, en la realidad, el amplificador operacional presenta desviaciones con respecto a este comportamiento ideal, algunas de las cuales son las siguientes:
+> 1. Voltaje de desviación (offset) a la entrada (Voff): en un op amp ideal, cuando se cortocircuitan las entradas, la salida se anula. En un amplificador operacional real,
+para que la salida se anule, es necesario aplicar una pequeña tensión (Voff) entre las entradas. Este voltaje se origina en el desequilibrio entre las dos etapas de
+entrada y varía con los cambios de temperatura, envejecimiento y, en menor medida, con los valores de los voltajes de polarización y de entrada.
+
+> 2. Corriente de desviación (Ioff): debido al desequilibrio interno de los puertos de entrada, las corrientes DC absorbidas por los terminales N y P no son exactamente iguales. La diferencia entre ambas es la corriente de desviación. 
+
+> 3. Impedancia de entrada (Zin): en un op amp real, la impedancia de entrada es grande, pero no infinita. Además, es fuertemente dependiente de la frecuencia, ya que incorpora un elemento capacitivo, lo cual hace que disminuya con la frecuencia. No obstante, a bajas frecuencias, puede considerarse que la impedancia de entrada es resistiva pura (Rin).
+
+> 4. Impedancia de salida (Zout): la impedancia de salida de un op amp es pequeña, pero diferente de cero. Típicamente, se ubica en el rango de las decenas a centenas de ohmios. Nuevamente, a bajas frecuencias puede considerarse que esta impedancia es resistiva pura (Ro).
+
+> 5. Ganancia de lazo abierto (A): en este caso, los amplificadores operacionales comerciales se aproximan mucho al caso ideal, ya que para este parámetro se consiguen valores de 250 000 y más. Disminuye con la frecuencia. 
 
 ### 2. OBJETIVOS
 #### Objetivo General
