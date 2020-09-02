@@ -168,5 +168,5 @@ Amplificadores para instrumentos, convertidores digitales-analógicos, computado
 ### 11. ANEXOS
 
 - [Cálculos](https://github.com/erickfi/Laboratorio-7/blob/master/Anexos/LAB_7_CIRCUITOS.pdf)
-- [Cómo se implementó el circuito](https://youtu.be/wFO5DdxBPt8)
-- [Cómo funciona el circuito](https://youtu.be/656tT3m5qm4)
+- [Cómo se implementó el circuito](https://youtu.be/n54IluLJb14)
+- [Cómo funciona el circuito](https://youtu.be/n54IluLJb14)
