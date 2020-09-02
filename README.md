@@ -111,25 +111,26 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 ### 6. PREGUNTAS
 
 ***Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.***
-
-       Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico son:
-       - La impedancia de Entrada y Salida
-       Son las resistencias que se encuentran conectadas a la entrada y salida del amplificador. 
-
-
+Los parámetros a tener en cuenta para implementar un amplificador operacional en cualquier circuito electrónico son:
+- La impedancia de Entrada y Salida
+Son las resistencias que se encuentran conectadas a la entrada y salida del amplificador. 
+- Tensión de Alimentación
+Es la tensión máxima permitida y que es aplicada en los terminales de entrada diferencial sin flujo excesivo de corriente.
+- Tensión de Entrada diferencial
+Es la tensión máxima permitida y que es aplicada en los terminales de entrada diferencial sin flujo excesivo de corriente.
+- Tensión en Modo Común 
+Es el rango de voltaje aplicable en ambas entradas con respecto a tierra.
+- Consumo y Disipación de Potencia
+En el consumo se tiene una potencia requerida para operar un amplificador operacional con propósitos de polarización, en disipación se tiene una potencia en la cual un dispositivo es capaz de disipar de manera segura y continua mientras otro opera dentro de un rango de temperatura específico.
+- Rango de Temperaturas de Operación
+Es el rango de temperatura donde el dispositivo funciona bajo las especificaciones requeridas.
 ***Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.***
-
-	1.15 V
-
+Los operadores utilizados en esta práctica fueron el LM3424J y el 741, sin embargo existen muchos otros amplificadores muy utilizados actualmente en la industria debido a las características que poseen, como por ejemplo:
+-Los (opamps), se encargan de amplificar la tensión, suelen ser los bloques de construcción de sistemas electrónicos en un amplio rango de dispositivos y equipos. También existen los nuevos (opamps) capaces de trabajar a 200mV por debajo de cero en modo común, incrementando la libertad de diseño al poder resistir hasta 6 V con la máxima ratio y ampliando el margen de un fuente típica de 5 V.
+-TSV85x y LMV82x, convierten en una actualización del estándar de la industria LMV321 para aplicaciones de acondicionamiento de señal informática, sanidad e industria. Estos amplificadores operacionales cuentan con una opción de pin shut-down que ayuda a minimizar el consumo de corriente a "prácticamente cero" y las versiones de grado A ofrecen los valores más bajos de tensión offset de entrada.
 ***Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.***
-
-	8
-
-
-
-
-
-
+Las aplicaciones de los OP son muy extensas y diversas, entre las numerosas aplicaciones prácticas tenemos: 
+Amplificadores para instrumentos, convertidores digitales-analógicos, computadoras analógicas, cambiadores de nivel, filtros, circuitos de calibración, inversores, sumadores, integradores, diferenciadores, restadores, amplificadores logarítmicos, comparadores, elementos rotatorios, osciladores, rectificadores, reguladores, convertidores de tensión a corriente, convertidores de corriente a tensión y recortadores.
 ### 7. CONCLUSIONES
 
 
