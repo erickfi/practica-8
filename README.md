@@ -30,15 +30,16 @@ entrada y varía con los cambios de temperatura, envejecimiento y, en menor medi
 ### 2. OBJETIVOS
 #### Objetivo General
 
-- Determinar experimentalmente las características de señales senoidales.
+- Simular de manera eficaz un amplificador operacional, reconociendo su funcionamiento, aplicaciones y gráficas.
 
 #### Objetivos Específicos
-- Entender el funcionamiento del osciloscopio.
-- Analizar la senoide que forma el voltaje en una resistencia.
-- Comparar el voltaje maximo de la senoide con el obtenido con un voltímetro en C.A.
-### 3. MARCO TEÓRICO
+- Verificar el principio de funcionamiento de un amplificador operacional.
+- Analizar algunas aplicaciones básicas con el amplificador operacional.
+- Familiarizarse con el uso de instrumentos de medida.
 
-Según Sadiku (2006)
+### 3. MARCO TEÓRICO
+Un amplificador operacional (abreviadamente, op amp, del inglés operational amplifier) es un amplificador electrónico de voltaje con muy alta ganancia, entradas diferenciales y, generalmente, una única salida. Según Sadiku (2006)
+
 > El amplificador operacional es una unidad electrónica que se comporta como una fuente de tensión controlada por tensión.
 
 ### 4. DIAGRAMAS
