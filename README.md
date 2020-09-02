@@ -164,6 +164,9 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 
 ### 7. CONCLUSIONES
 
+> En el primer circuito se observó una amplificación o incremento en el voltaje proporcionado por la fuente de voltaje AC de 1V, este incremento esta dado en un factor de 4.3 veces el voltaje de entrada, y esto es debido precisamente a la configuración del circuito, el amplificador operacional LM324J es alimentado por las terminales 4 y 11 con un voltaje de 14 V y dado que las resistencias de entrada y salida son 1k y 4.3 k ohmio respectivamente, se logra amplificar el voltaje de entrada de nuestro circuito.
+
+> En el tercer circuito al igual que el primero, se obtiene un incremento sobre el voltaje de entrada, en este caso la configuración del circuito al tener dos fuentes de voltaje de corriente alterna en paralelo, el factor de incremento en el voltaje de salida esta relacionado directamente con dichas fuentes y sus respectivas resistencias conectadas en serie, y como también la resistencia de salida. Obteniendo un voltaje de salida de 8,33 V.
 
 ### 8. RECOMENDACIONES
 
