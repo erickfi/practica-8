@@ -107,7 +107,7 @@ Si se intenta incrementar vd más allá del rango lineal, el amplificador operac
 
 ##### Circuito 2
 
-![](https://github.com/erickfi/practica-8/blob/master/Imgs/circuito%202.PNG)
+![](https://github.com/erickfi/practica-8/blob/master/Imgs/CIRCUITO%202.PNG)
 
 ##### Circuito 3
 
